@@ -1,0 +1,39 @@
+{
+    "Target": "https://amazon.in",
+    "IP": "52.95.116.115",
+    "Results": {
+        "Open Ports": [
+            "Port 22: ssh (filtered)",
+            "Port 37: time (filtered)",
+            "Port 80: http (open)",
+            "Port 443: https (open)",
+            "Port 515: printer (filtered)",
+            "Port 543: klogin (filtered)",
+            "Port 646: ldp (filtered)",
+            "Port 1025: NFS-or-IIS (filtered)",
+            "Port 3986: mapper-ws_ethd (filtered)",
+            "Port 5357: wsdapi (filtered)",
+            "Port 5900: vnc (filtered)",
+            "Port 6646:  (filtered)",
+            "Port 8443: https-alt (filtered)",
+            "Port 9100: jetdirect (filtered)",
+            "Port 49154:  (filtered)"
+        ],
+        "XSS Vulnerabilities": [
+            "XSS test failed: HTTPSConnectionPool(host='amazon.in', port=443): Read timed out. (read timeout=5)",
+            "XSS test failed: HTTPSConnectionPool(host='amazon.in', port=443): Read timed out. (read timeout=5)"
+        ],
+        "SQL Injection": [
+            "SQL Injection test failed: HTTPSConnectionPool(host='amazon.in', port=443): Read timed out. (read timeout=5)"
+        ],
+        "Hidden Directories": [
+            "No sensitive directories found."
+        ],
+        "Security Headers": [
+            "Header analysis failed: HTTPSConnectionPool(host='amazon.in', port=443): Read timed out. (read timeout=5)"
+        ],
+        "CMS Detection": [
+            "\ud83d\udd35 No CMS detected."
+        ]
+    }
+}

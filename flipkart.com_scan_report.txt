@@ -1,0 +1,25 @@
+{
+    "Target": "https://flipkart.com",
+    "IP": "163.53.76.86",
+    "Results": {
+        "Open Ports": [
+            "Port 80: http-proxy",
+            "Port 443: http-proxy"
+        ],
+        "XSS Vulnerabilities": [
+            "\u26a0\ufe0f XSS detected with payload: javascript:alert('XSS')"
+        ],
+        "SQL Injection": [
+            "No SQL Injection vulnerabilities found."
+        ],
+        "Hidden Directories": [
+            "\ud83d\udcc2 Found directory: https://flipkart.com/login"
+        ],
+        "Security Headers": [
+            "\u26a0\ufe0f Missing security headers: X-Frame-Options, X-XSS-Protection, Strict-Transport-Security"
+        ],
+        "CMS Detection": [
+            "\ud83d\udd35 No CMS detected."
+        ]
+    }
+}
